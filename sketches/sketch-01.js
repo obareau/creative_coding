@@ -8,6 +8,12 @@ const settings = {
 //orientation: "landscape"
 
 
+// USAGE : 
+// open a shell
+// canvas-sketch sketch-01.js --new
+// or use an existing one
+// canvas-sketch sketch-01.js --output=output/01
+
 const sketch = () => {
     return ({ context, width, height }) => {
         context.fillStyle = 'white';
