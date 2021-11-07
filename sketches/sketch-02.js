@@ -11,13 +11,13 @@ const sketch = () => {
 
         context.fillstyle = "black";
 
-        const x = 0
-        const y = 0
+        const x = width * 0.5;
+        const y = height * 0.5;
         const w = width * 0.3;
         const h = height * 0.3;
 
         context.beginPath();
-        context.rect(x, y, w, h);
+        context.rect(0, 0, w, h);
         context.fill();
     };
 };
