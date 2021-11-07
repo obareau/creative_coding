@@ -15,7 +15,7 @@ const sketch = () => {
         const y = 0
         const w = width * 0.3;
         const h = height * 0.3;
-        // 
+
         context.beginPath();
         context.rect(x, y, w, h);
         context.fill();
